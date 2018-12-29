@@ -1,4 +1,4 @@
-package ec.com.limotaxi.limotaxi;
+package ec.com.limotaxi;
 
 import android.Manifest;
 import android.content.Intent;
@@ -9,9 +9,16 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import ec.com.limotaxi.limotaxi.R;
+
 public class MainActivity extends AppCompatActivity {
     private int MY_PERMISSIONS_REQUEST_READ_CONTACTS;
     private Button mDriver, mCustomer;
+
+    public MainActivity(int my_permissions_request_read_contacts) {
+        MY_PERMISSIONS_REQUEST_READ_CONTACTS = my_permissions_request_read_contacts;
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -47,4 +54,5 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+    //prueba de sincronizacion android studio and git
 }
