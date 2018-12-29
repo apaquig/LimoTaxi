@@ -4,19 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context="ec.com.limotaxi.limotaxi.MainActivity"
     android:orientation="vertical">
 
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Yo soy un conductor"
+        android:text="Conductor"
         android:id="@+id/driver"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Yo soy un cliente"
-        android:id="@+id/custumer"/>
+        android:text="Pasajero"
+        android:id="@+id/customer"/>
 
 </LinearLayout>

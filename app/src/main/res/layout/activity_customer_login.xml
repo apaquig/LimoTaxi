@@ -4,31 +4,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DriverLoginActivity"
+    tools:context="ec.com.limotaxi.limotaxi.DriverLoginActivity"
     android:orientation="vertical">
-
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="email"
+        android:hint="Email"
         android:id="@+id/email"/>
-
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="contraseña"
-        android:id="@+id/contraseña"/>
-
+        android:hint="Contraseña"
+        android:id="@+id/password"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="ingresar"
-        android:id="@+id/ingresar"/>
-
+        android:text="Ingresar"
+        android:id="@+id/login"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="registrarse"
-        android:id="@+id/registrarse"/>
-
+        android:text="Registrarse"
+        android:id="@+id/registration"/>
 </LinearLayout>
