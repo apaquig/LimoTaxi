@@ -6,6 +6,24 @@
     android:layout_height="match_parent"
     tools:context="ec.com.limotaxi.limotaxi.DriverLoginActivity"
     android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"
+        android:id="@+id/nombre"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Apellido"
+        android:id="@+id/apellido"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:id="@+id/email"/>
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
